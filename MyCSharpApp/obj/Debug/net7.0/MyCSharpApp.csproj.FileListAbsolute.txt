@@ -1,0 +1,14 @@
+E:\Presidio Assignments\C#\MyCSharpApp\bin\Debug\net7.0\MyCSharpApp.exe
+E:\Presidio Assignments\C#\MyCSharpApp\bin\Debug\net7.0\MyCSharpApp.deps.json
+E:\Presidio Assignments\C#\MyCSharpApp\bin\Debug\net7.0\MyCSharpApp.runtimeconfig.json
+E:\Presidio Assignments\C#\MyCSharpApp\bin\Debug\net7.0\MyCSharpApp.dll
+E:\Presidio Assignments\C#\MyCSharpApp\bin\Debug\net7.0\MyCSharpApp.pdb
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.AssemblyInfoInputs.cache
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.AssemblyInfo.cs
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.csproj.CoreCompileInputs.cache
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.dll
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\refint\MyCSharpApp.dll
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.pdb
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\MyCSharpApp.genruntimeconfig.cache
+E:\Presidio Assignments\C#\MyCSharpApp\obj\Debug\net7.0\ref\MyCSharpApp.dll
