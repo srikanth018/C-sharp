@@ -58,7 +58,7 @@ Enter the amount you want to add to your savings:
 Congrats!!.. You have saved amount more than 100 and your current Amount is Rs.107
 ```
 
-### ➤ Threshold Not Reached:
+### Threshold Not Reached:
 
 ```
 > dotnet run
