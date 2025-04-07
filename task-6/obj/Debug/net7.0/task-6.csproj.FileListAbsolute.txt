@@ -1,0 +1,14 @@
+E:\Presidio Assignments\C#\task-6\bin\Debug\net7.0\task-6.exe
+E:\Presidio Assignments\C#\task-6\bin\Debug\net7.0\task-6.deps.json
+E:\Presidio Assignments\C#\task-6\bin\Debug\net7.0\task-6.runtimeconfig.json
+E:\Presidio Assignments\C#\task-6\bin\Debug\net7.0\task-6.dll
+E:\Presidio Assignments\C#\task-6\bin\Debug\net7.0\task-6.pdb
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.GeneratedMSBuildEditorConfig.editorconfig
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.AssemblyInfoInputs.cache
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.AssemblyInfo.cs
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.csproj.CoreCompileInputs.cache
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.dll
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\refint\task-6.dll
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.pdb
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\task-6.genruntimeconfig.cache
+E:\Presidio Assignments\C#\task-6\obj\Debug\net7.0\ref\task-6.dll
