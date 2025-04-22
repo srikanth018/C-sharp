@@ -1,0 +1,14 @@
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.GeneratedMSBuildEditorConfig.editorconfig
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.AssemblyInfoInputs.cache
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.AssemblyInfo.cs
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.csproj.CoreCompileInputs.cache
+E:\Presidio Assignments\C#\task-9\bin\Debug\net7.0\task-9.exe
+E:\Presidio Assignments\C#\task-9\bin\Debug\net7.0\task-9.deps.json
+E:\Presidio Assignments\C#\task-9\bin\Debug\net7.0\task-9.runtimeconfig.json
+E:\Presidio Assignments\C#\task-9\bin\Debug\net7.0\task-9.dll
+E:\Presidio Assignments\C#\task-9\bin\Debug\net7.0\task-9.pdb
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.dll
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\refint\task-9.dll
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.pdb
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\task-9.genruntimeconfig.cache
+E:\Presidio Assignments\C#\task-9\obj\Debug\net7.0\ref\task-9.dll
