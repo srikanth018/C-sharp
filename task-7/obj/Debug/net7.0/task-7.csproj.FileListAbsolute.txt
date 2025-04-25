@@ -12,3 +12,4 @@ E:\Presidio Assignments\C#\task-7\obj\Debug\net7.0\refint\task-7.dll
 E:\Presidio Assignments\C#\task-7\obj\Debug\net7.0\task-7.pdb
 E:\Presidio Assignments\C#\task-7\obj\Debug\net7.0\task-7.genruntimeconfig.cache
 E:\Presidio Assignments\C#\task-7\obj\Debug\net7.0\ref\task-7.dll
+E:\Presidio Assignments\C#\task-7\obj\Debug\net7.0\task-7.sourcelink.json

@@ -34,7 +34,7 @@ class Program
             string url = $"https://api.openweathermap.org/data/2.5/weather?q={city}&APPID={api}";
             HttpResponseMessage response = await http.GetAsync(url);
             
-            System.Console.WriteLine("Fetching data");
+            System.Console.WriteLine($"Fetching data for {city}");
             Task.Delay(2000).Wait();
             string json = await response.Content.ReadAsStringAsync();
 
@@ -56,12 +56,12 @@ class Program
     }
     static async Task Main()
     {
-        Console.WriteLine("Enter the city name");
-        string? city = Console.ReadLine();
 
         string api = "25ae8ad5ba384384be2a28510092f7cb";
 
-        await FetchData(city, api);
+        await FetchData("Salem", api);
+        await FetchData("Coimbatore", api);
+        await FetchData("Chennai", api);
 
     }
 
