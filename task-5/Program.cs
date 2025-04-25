@@ -50,7 +50,7 @@ namespace Task5
         }
         public static void Main(string[] args)
         {
-            string path = @"E:\Presidio Assignments\C#\task-5\students.csv";
+            string path = @"students.csv";
 
             while(true){
                 System.Console.WriteLine("Select the Function");

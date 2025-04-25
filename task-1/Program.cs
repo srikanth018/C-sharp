@@ -2,12 +2,19 @@
 
 class Program
 {
-    static int factorial(int n)
+    static void fibonacii(int n)
     {
-        if (n == 0 || n == 1)
-            return 1;
-        else
-            return n * factorial(n - 1);
+        int num_1 = 0;
+        int num_2 = 1;
+            System.Console.WriteLine(num_1);
+            System.Console.WriteLine(num_2);
+        for (int i =0 ;i<n;i++){
+
+            int num_3 = num_2+num_1; 
+            System.Console.WriteLine(num_3);
+            num_1 = num_2;
+            num_2 = num_3;
+        }
     }
     static void Main()
     {
@@ -21,6 +28,6 @@ class Program
             Console.WriteLine("No!, You have entered a negative number.");
             return;
         }
-        Console.WriteLine("The factorial of " + input + " is " + factorial(input));
+        fibonacii(input);
     }
 }

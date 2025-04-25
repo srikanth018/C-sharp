@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 public class Student
@@ -16,6 +17,8 @@ public interface IRepository<T> where T : Student
     void GetStudents();
     void UpdateStudent(T student);
     void DeleteStudent(int Id);
+
+    bool ifIdExists(int Id);
 }
 
 
@@ -45,6 +48,16 @@ public class InMemoryRepository<T> : IRepository<T> where T : Student
         studentsList.RemoveAll(s=>s.Id == Id);
     }
 
+    public bool ifIdExists(int Id){
+        var IdData =  studentsList.Where(m=>m.Id == Id);
+
+        if(IdData.Count()==0){
+            System.Console.WriteLine("User Id Not Found");
+            return false;
+        }
+        return true;
+    }
+
 }
 
 class Program
@@ -60,6 +73,7 @@ class Program
         studentRepo.UpdateStudent(new Student{Id = 1,Name = "Mouly",Age = 20,Grade = 95});
         studentRepo.DeleteStudent(2);
         studentRepo.GetStudents();
+        studentRepo.ifIdExists(5);
 
     }
 }

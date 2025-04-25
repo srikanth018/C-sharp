@@ -22,11 +22,22 @@ namespace Task4
                 new Student {name = "Sankar", grade = 80, age = 22}
             };
 
+            var names = students.Select(m=>m.name).Where(n=>n.Contains('n'));
+            var names1 = students.Where(x=>x.name.Contains('n')).Select(x=>x.name);
+            
+            foreach(var name in names){
+                System.Console.WriteLine($"Name of the stdent is {name}");
+            }
+
+            var MaxGrade = students.OrderByDescending(m=>m.grade).First();
+
+
             var firstClassGrades = students.Where(member => member.grade >= 80).OrderByDescending(member => member.grade).ToList();
 
             foreach (var student in firstClassGrades){
                 Console.WriteLine($"Name - {student.name}, Age - {student.age}, Grade - {student.grade}");
             }
+
         }
     }
 }

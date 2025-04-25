@@ -7,7 +7,8 @@ static class Program
 
         User u = new User();
 
-        while(true){
+        while (true)
+        {
             Console.WriteLine("Heyy!!, Please select the functionality do you want");
             Console.WriteLine("1. Add new User");
             Console.WriteLine("2. Remove New User");
@@ -15,26 +16,42 @@ static class Program
             Console.WriteLine("4. Exit");
             int userinput = Convert.ToInt32(Console.ReadLine());
 
-            if(userinput == 1){
+            if (userinput == 1)
+            {
                 Console.WriteLine("Enter user name");
                 string userName = (Console.ReadLine() ?? "").Trim().ToUpper();
 
 
                 u.AddUser(userName);
             }
-            else if(userinput == 2){
-                Console.WriteLine("Enter user name that you want to remove");
-                string userName = (Console.ReadLine() ?? "").Trim().ToUpper();
+            else if (userinput == 2)
+            {
+
+
+                if (u.GetUsersCount() > 0)
+                {
+                    Console.WriteLine("Enter user name that you want to remove");
+                    string userName = (Console.ReadLine() ?? "").Trim().ToUpper();
+
+                    u.RemoveUser(userName);
+                }
+                else {
+                    System.Console.WriteLine("No users Found Till now");
+                }
 
 
 
-                u.RemoveUser(userName);
             }
-            else if(userinput == 3){
+            else if (userinput == 3)
+            {
                 u.DisplayUsers();
             }
-            else if(userinput == 4){
+            else if (userinput == 4)
+            {
                 break;
+            }
+            else{
+                System.Console.WriteLine("Select the Functionality serial number correctly");
             }
 
         }
